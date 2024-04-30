@@ -8,326 +8,55 @@
     <title>Test de personalidad</title>
     <link rel="stylesheet" href="css/css.css">
     <link rel="icon" href="img/favicon-16x16.png">
+   
 </head>
 <body>
     <div class="for">
         <header class="header">
             <div class="menu contenedor">
-                <a href="#" class="logo">Psychological Test</a>
+                <a href="" class="logo">Evaluación Psicologica</a>
                 <input type="checkbox" id="menu">
                 <label for="menu">
                     <img src="img/menu.png" class="icono-menu" alt="">
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Test de Personalidad</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="formulario.html">Test de Personalidad</a></li>
+                        <li><a href="personalidad.html">Resultado</a></li>
                     </ul>
                 </nav>
                 
             </div>
-   
+            
+
             <div class="contenedor" style="text-align: center;">
 
-                <p style="font-size: 24px;">Descubre Tu Verdadero Yo</p>
-           
-        <div class="cuadros contenedor" style="text-align: center; margin-top: 20px;">
-            <div class="cuadro" style="display: inline-block; margin-right: 20px;">
-                <img src="img/imagen1.png" alt="Imagen 1" style="width: 200px;">
-                <p>Descubre tu tipo de personalidad siendo auténtico en tus respuestas.</p>
-            </div>
-            <div class="cuadro" style="display: inline-block; margin-right: 20px;">
-                <img src="img/imagen2.png" alt="Imagen 2" style="width: 200px;">
-                <p>Descubre como tu personalidad influye en múltiples aspectos de tu vida.</p>
-            </div>
-            <div class="cuadro" style="display: inline-block;">
-                <img src="img/imagen3.png" alt="Imagen 3" style="width: 200px;">
-                <p>Explora como tu identidad única da forma a tus relaciones y carrera en un viaje de autoconocimiento.</p>
-            </div>
-        </div>
-    </div>
-        </header>
-        <div class="container">
-            <div class="progress-bar">
-                <div class="progress"></div>
-            </div>
-            <div class="progress-labels">
-                <span style="left: 3%;">0%</span>
-                <span style="left: 20%;">20%</span>
-                <span style="left: 40%;">40%</span>
-                <span style="left: 60%;">60%</span>
-                <span style="left: 80%;">80%</span>
-                <span style="right: 0%;">100%</span>
-            </div>
-        </div>
-        <div id="questions-container">
-            <div class="question-set" id="set1">
-        <section id="p0">
-        
-                             <h3>1 - ¿Prefieres pasar tiempo solo, con unas pocas personas cercanas o rodeado de mucha gente?</h3>
-                             <ul class="options">
-                                <li><input type="radio" value="1" name="p0"><label>Solo</label></li>
-                                <li><input type="radio" value="2" name="p0"><label>Con unas pocas personas cercanas</label></li>
-                                <li><input type="radio" value="3" name="p0"><label>Rodeado de mucha gente</label></li>
-                            </ul>
-                        </section>
+                <p>Descubre Tu Verdadero Yo</p>
                 
-                               <section id="p1">
-                                   <h3>2 - ¿Cómo te sientes generalmente en situaciones nuevas o desconocidas?</h3>
-                                   <ul class="options">
-                                    <li><input type="radio" value="1" name="p1"><label>Emocionado/a, me gusta probar cosas nuevas</label></li>
-                                    <li><input type="radio" value="2" name="p1"><label>Nervioso/a, prefiero lo familiar</label></li>
-                                    <li><input type="radio" value="3" name="p1"><label>Indiferente, puedo adaptarme fácilmente</label></li>
-                                </ul>
-                            </section>
-                               
-                               <section id="p2">
-                                   <h3>3 - ¿Eres más propenso/a a ser organizado/a, flexible o improvisado/a?</h3>
-                                   <ul class="options">
-                                    <li><input type="radio" value="1" name="p2"><label>Organizado/a</label></li>
-                                    <li><input type="radio" value="2" name="p2"><label>Flexible</label></li>
-                                    <li><input type="radio" value="3" name="p2"><label>Improvisado/a</label></li>
-                                </ul>
-                            </section>
-                               
-                               <section id="p3">
-                                   <h3>4 - ¿Qué tipo de actividades prefieres en tu tiempo libre?</h3>
-                                   <ul class="options">
-                                    <li><input type="radio" value="1" name="p3"><label>Actividades tranquilas como leer o pintar</label></li>
-                                    <li><input type="radio" value="2" name="p3"><label>Salir a explorar o hacer deporte</label></li>
-                                    <li><input type="radio" value="3" name="p3"><label>Pasando tiempo con amigos y familiares</label></li>
-                                </ul>
-                            </section>
-                               <section id="p4">
-                                   <h3>5 - ¿Cómo sueles enfrentar los problemas?</h3>
-                                   <ul class="options">
-                                    <li><input type="radio" value="1" name="p4"><label>Pensando detenidamente en todas las opciones</label></li>
-                                    <li><input type="radio" value="2" name="p4"><label>Actuando rápidamente para resolverlos</label></li>
-                                    <li><input type="radio" value="3" name="p4"><label>Consultando con otros y buscando ayuda</label></li>
-                                </ul>
-                            </section>
-                        </div>
-                                
-            <div class="question-set" id="set2" style="display: none;">
-             <section id="p5">
-                                        <h3>6 - ¿Cuál es tu enfoque principal al tomar decisiones importantes?</h3>
-                                        <ul class="options">
-                                            <li><input type="radio" value="1" name="p5"><label>Analizar los pros y los contras detalladamente.</label></li>
-                                            <li><input type="radio" value="2" name="p5"><label>Seguir mi intuición y sentimientos.</label></li>
-                                            <li><input type="radio" value="3" name="p5"><label>Buscar consejo y opiniones de otras personas.</label></li>
-                                        </ul>
-                                    </section>
-                                    <section id="p6">
-                                        <h3>7 - ¿Cómo te sientes acerca de los cambios inesperados en tu vida?</h3>
-                                        <ul class="options">
-                                            <li><input type="radio" value="1" name="p6"><label>Me siento incómodo/a y prefiero la estabilidad.</label></li>
-                                            <li><input type="radio" value="2" name="p6"><label>Los veo como desafíos emocionantes que me permiten crecer.</label></li>
-                                            <li><input type="radio" value="3" name="p6"><label>Los acepto con calma y busco adaptarme lo mejor posible.</label></li>
-                                        </ul>
-                                    </section>
-                                    <section id="p7">
-                                        <h3>8 - ¿Qué te motiva más en la vida?</h3>
-                                        <ul class="options">
-                                            <li><input type="radio" value="1" name="p7"><label>Lograr metas concretas y alcanzar el éxito.</label></li>
-                                            <li><input type="radio" value="2" name="p7"><label>Experimentar y disfrutar del momento presente.</label></li>
-                                            <li><input type="radio" value="3" name="p7"><label>Aprender y crecer como persona.</label></li>
-                                        </ul>
-                                    </section>
-                                    <section id="p8">
-                                        <h3>9 - ¿Qué importancia le das a la planificación en tu vida?</h3>
-                                        <ul class="options">
-                                            <li><input type="radio" value="1" name="p8"><label>Soy bastante organizado/a y me gusta tener un plan para todo.</label></li>
-                                            <li><input type="radio" value="2" name="p8"><label>Prefiero mantenerme flexible y adaptarme según las circunstancias.</label></li>
-                                            <li><input type="radio" value="3" name="p8"><label>La planificación es importante, pero también disfruto de la espontaneidad.</label></li>
-                                        </ul>
-                                    </section>
-                                    <section id="p9">
-                                        <h3>10 - ¿Qué cualidad valoras más en ti mismo/a?</h3>
-                                        <ul class="options">
-                                            <li><input type="radio" value="1" name="p9"><label>Mi capacidad para ser honesto/a y leal.</label></li>
-                                            <li><input type="radio" value="2" name="p9"><label>Mi creatividad y capacidad de pensamiento original.</label></li>
-                                            <li><input type="radio" value="3" name="p9"><label>Mi empatía y capacidad para entender a los demás.</label></li>
-                                        </ul>
-                                    </section>
-                                </div>
-            <div class="question-set" id="set3" style="display: none;">
-                <section id="p10">
-                    <h3>11 - ¿Cómo te sientes acerca de las normas establecidas por la sociedad?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p10"><label>Las respeto y trato de seguirlas en la medida de lo posible.</label></li>
-                        <li><input type="radio" value="2" name="p10"><label>A veces las cuestiono y prefiero seguir mi propio camino.</label></li>
-                        <li><input type="radio" value="3" name="p10"><label>Las encuentro restrictivas y me gusta desafiarlas.</label></li>
-                    </ul>
-                </section>
-                <section id="p11">
-                    <h3>12 - ¿Qué te gusta más en una conversación?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p11"><label>Discutir ideas y temas profundos.</label></li>
-                        <li><input type="radio" value="2" name="p11"><label>Compartir historias personales y conectar emocionalmente.</label></li>
-                        <li><input type="radio" value="3" name="p11"><label>Hacer bromas y pasarlo bien con los demás.</label></li>
-                    </ul>
-                </section>
-                <section id="p12">
-                    <h3>13 - ¿Cómo te sientes acerca de la rutina en tu vida diaria?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p12"><label>Me siento cómodo/a con una rutina establecida.</label></li>
-                        <li><input type="radio" value="2" name="p12"><label>A veces me aburre y busco cambiar las cosas.</label></li>
-                        <li><input type="radio" value="3" name="p12"><label>Prefiero la variedad y la espontaneidad en mi vida.</label></li>
-                    </ul>
-                </section>
-                <section id="p13">
-                    <h3>14 - ¿Cómo manejas el estrés en tu vida?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p13"><label>Busco soluciones prácticas y me mantengo ocupado/a.</label></li>
-                        <li><input type="radio" value="2" name="p13"><label>Necesito tiempo para reflexionar y recuperarme.</label></li>
-                        <li><input type="radio" value="3" name="p13"><label>Busco apoyo en amigos y familiares para superarlo.</label></li>
-                    </ul>
-                </section>
-                </section>
-                <section id="p14">
-                    <h3>15 - ¿Qué tipo de libros o películas prefieres?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p14"><label>Aquellas que me desafían intelectualmente y me hacen reflexionar.</label></li>
-                        <li><input type="radio" value="2" name="p14"><label>Historias emocionales y profundas que me conmuevan.</label></li>
-                        <li><input type="radio" value="3" name="p14"><label>Películas o libros divertidos que me hagan reír y entretenerme.</label></li>
-                    </ul>
-                </section>
-            </div>
-            <div class="question-set" id="set4" style="display: none;">
-                <section id="p15">
-                    <h3>16 - ¿Cómo te sientes acerca de tomar riesgos en tu vida?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p15"><label>Prefiero evitar riesgos y mantenerme seguro/a.</label></li>
-                        <li><input type="radio" value="2" name="p15"><label>A veces estoy dispuesto/a a tomar riesgos calculados.</label></li>
-                        <li><input type="radio" value="3" name="p15"><label>Disfruto tomando riesgos y buscando nuevas experiencias.</label></li>
-                    </ul>
-                </section>
-                <section id="p16">
-                    <h3>17 - ¿Qué cualidad crees que es más importante en un amigo/a?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p16"><label>Lealtad y confiabilidad.</label></li>
-                        <li><input type="radio" value="2" name="p16"><label>Comprensión y empatía.</label></li>
-                        <li><input type="radio" value="3" name="p16"><label>Diversión y sentido del humor.</label></li>
-                    </ul>
-                </section>
-                
-                <section id="p17">
-                    <h3>18 - ¿Qué te hace sentir más realizado/a en la vida?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p17"><label>Alcanzar mis metas profesionales y personales.</label></li>
-                        <li><input type="radio" value="2" name="p17"><label>Hacer una diferencia positiva en la vida de los demás.</label></li>
-                        <li><input type="radio" value="3" name="p17"><label>Experimentar nuevas cosas y vivir en el momento presente.</label></li>
-                    </ul>
-                </section>
-                <section id="p18">
-                    <h3>19 - ¿Cómo te sientes acerca de la competencia en el trabajo o en actividades recreativas?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p18"><label>Me motiva a dar lo mejor de mí y superarme.</label></li>
-                        <li><input type="radio" value="2" name="p18"><label>A veces me siento incómodo/a y prefiero evitarla.</label></li>
-                        <li><input type="radio" value="3" name="p18"><label>No me importa mucho, prefiero colaborar que competir.</label></li>
-                    </ul>
-                </section>
-                </section>
-                <section id="p19">
-                    <h3>20 - ¿Qué te gusta más en un ambiente de trabajo?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p19"><label>Un ambiente competitivo que me motive a mejorar.</label></li>
-                        <li><input type="radio" value="2" name="p19"><label>Un ambiente colaborativo donde todos se apoyen mutuamente.</label></li>
-                        <li><input type="radio" value="3" name="p19"><label>Un ambiente relajado donde pueda trabajar a mi propio ritmo.</label></li>
-                    </ul>
-                </section>
+                <div class="cuadros contenedor" style="text-align: center; margin-top: 20px;">
+                    <div class="cuadro" style="display: inline-block; margin-right: 20px;">
+                        <img src="img/imagen1.png" alt="Imagen 1" style="width: 200px;">
+                        <p>Descubre tu tipo de personalidad siendo auténtico en tus respuestas.</p>
+                    </div>
+                    <div class="cuadro" style="display: inline-block; margin-right: 20px;">
+                        <img src="img/imagen2.png" alt="Imagen 2" style="width: 200px;">
+                        <p>Descubre como tu personalidad influye en múltiples aspectos de tu vida.</p>
+                    </div>
+                    <div class="cuadro" style="display: inline-block;">
+                        <img src="img/imagen3.png" alt="Imagen 3" style="width: 200px;">
+                        <p>Explora como tu identidad única da forma a tus relaciones y carrera en un viaje de autoconocimiento.</p>
+                    </div>
                 </div>
-              <div class="question-set" id="set5" style="display: none;">
-<section id="p20">
-    <h3>21 - ¿Cómo prefieres recibir retroalimentación sobre tu trabajo o desempeño?</h3>
-    <ul class="options">
-        <li><input type="radio" value="1" name="p20"><label>De manera directa y constructiva, para poder mejorar.</label></li>
-        <li><input type="radio" value="2" name="p20"><label>De forma delicada y considerada, para no herir mis sentimientos.</label></li>
-        <li><input type="radio" value="3" name="p20"><label>De manera equilibrada, reconociendo tanto lo positivo como lo negativo.</label></li>
-    </ul>
-</section>
-<section id="p21">
-    <h3>22 - ¿Cómo sueles reaccionar ante el cumplido de alguien hacia ti?</h3>
-    <ul class="options">
-        <li><input type="radio" value="1" name="p21"><label>Agradezco y acepto el cumplido con gratitud.</label></li>
-        <li><input type="radio" value="2" name="p21"><label>A veces me siento incómodo/a y tiendo a minimizarlo.</label></li>
-        <li><input type="radio" value="3" name="p21"><label>Lo acepto con alegría y lo celebro con la persona que me lo dio.</label></li>
-    </ul>
-</section>
-<section id="p22">
-    <h3>23 - ¿Cómo manejas el tiempo y los plazos de entrega?</h3>
-    <ul class="options">
-        <li><input type="radio" value="1" name="p22"><label>Soy muy organizado/a y suelo cumplir con los plazos establecidos.</label></li>
-        <li><input type="radio" value="2" name="p22"><label>A veces procrastino, pero siempre logro terminar a tiempo.</label></li>
-        <li><input type="radio" value="3" name="p22"><label>Me gusta trabajar bajo presión y suelo dejar las cosas para el último momento.</label></li>
-    </ul>
-</section>
-<section id="p23">
-    <h3>24 - ¿Qué importancia le das a la honestidad en tus relaciones personales?</h3>
-    <ul class="options">
-        <li><input type="radio" value="1" name="p23"><label>Es fundamental; siempre intento ser honesto/a y espero lo mismo de los demás.</label></li>
-        <li><input type="radio" value="2" name="p23"><label>Es importante, pero a veces es necesario guardar ciertas cosas para evitar conflictos.</label></li>
-        <li><input type="radio" value="3" name="p23"><label>Puede ser relativa; a veces es mejor omitir la verdad para no lastimar a los demás.</label></li>
-    </ul>
-</section>
-
-<section id="p24">
-    <h3>25 - ¿Cómo te sientes acerca de liderar un grupo de personas?</h3>
-    <ul class="options">
-        <li><input type="radio" value="1" name="p24"><label>Me siento cómodo/a asumiendo la responsabilidad y tomando decisiones.</label></li>
-        <li><input type="radio" value="2" name="p24"><label>A veces me siento inseguro/a, pero me gusta trabajar en equipo.</label></li>
-        <li><input type="radio" value="3" name="p24"><label>Prefiero seguir las órdenes de alguien más que liderar yo mismo/a.</label></li>
-    </ul>
-</section>
             </div>
-            <div class="question-set" id="set6" style="display: none;">
-                <section id="p25">
-                    <h3>26 - ¿Qué te hace sentir más satisfecho/a en tu trabajo?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p25"><label>Tener la oportunidad de resolver problemas complejos y desafiantes.</label></li>
-                        <li><input type="radio" value="2" name="p25"><label>Sentir que mi trabajo tiene un impacto positivo en la vida de los demás.</label></li>
-                        <li><input type="radio" value="3" name="p25"><label>Disfrutar de un ambiente de trabajo colaborativo y amigable.</label></li>
-                    </ul>
-                </section>
-                <section id="p26">
-                    <h3>27 - ¿Cómo prefieres manejar el estrés?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p26"><label>Buscando actividades que me ayuden a relajarme y desconectar.</label></li>
-                        <li><input type="radio" value="2" name="p26"><label>Organizando mi tiempo y estableciendo prioridades claras.</label></li>
-                        <li><input type="radio" value="3" name="p26"><label>Hablando con amigos o familiares sobre lo que me preocupa.</label></li>
-                    </ul>
-                </section>
-                <section id="p27">
-                    <h3>28 - ¿Cómo te sientes acerca de la tecnología y las redes sociales?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p27"><label>Me gusta estar al día con la tecnología y uso las redes sociales regularmente.</label></li>
-                        <li><input type="radio" value="2" name="p27"><label>A veces siento que me abruma y necesito desconectar.</label></li>
-                        <li><input type="radio" value="3" name="p27"><label>No me interesan mucho y prefiero interactuar en persona.</label></li>
-                    </ul>
-                </section>
-                <section id="p28">
-                    <h3>29 - ¿Qué te hace sentir más motivado/a en tu vida cotidiana?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p28"><label>Tener metas claras y desafiantes que me impulsen a mejorar</label></li>
-                        <li><input type="radio" value="2" name="p28"><label>Experimentar nuevas cosas y buscar aventuras emocionantes</label></li>
-                        <li><input type="radio" value="3" name="p28"><label>Disfrutar de momentos de tranquilidad y conexión con los demás</label></li>
-                    </ul>
-                </section>
-                <section id="p29">
-                    <h3>30 - ¿Cómo te sientes acerca de los cambios en tu rutina diaria?</h3>
-                    <ul class="options">
-                        <li><input type="radio" value="1" name="p29"><label>Me siento incómodo/a y prefiero mantenerme en mi zona de confort</label></li>
-                        <li><input type="radio" value="2" name="p29"><label>Los veo como oportunidades para crecer y aprender algo nuevo</label></li>
-                        <li><input type="radio" value="3" name="p29"><label>Me adapto fácilmente y encuentro maneras de aprovecharlos</label></li>
-                    </ul>
-                </section>
-                </section>         
-               </div>
-        </div>
-                <button id="siguiente">Siguiente</button>
-
     
+    </header>
+        <div id="quiz-container">
+            <h1>Test de Personalidad</h1>
+            <div id="question-container"></div>-
+            <button id="next-btn">Siguiente</button>
+            <div id="result"></div>
+        </div>
     
     
         
@@ -344,13 +73,15 @@
                 <a href="#">Team</a>
             </div>
             <div class="redes">
-                <a href="#"><img src="img/facebook.png" width="25px" alt=""></a>
-                <a href="#"><img src="img/instagram.png" width="25px" alt=""></a>
-                <a href="#"><img src="img/gorjeo.png" width="25px" alt=""></a>
+                <a href="#"><img src="img/facebook.png" width="40px" alt=""></a>
+                <a href="#"><img src="img/instagram.png" width="40px" alt=""></a>
+                <a href="#"><img src="img/gorjeo.png" width="40px" alt=""></a>
             </div>
         </div>
     </footer>
 </body>
-<script src="js/scrip.js"></script>
+
+<script src="js/formulario.js"></script>
 
 </html>
+
