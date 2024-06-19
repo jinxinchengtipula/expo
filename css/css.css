@@ -11,14 +11,16 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    
     background-color: #333;
     background-color: #e8e4e4;
+    
     
 }
 
 .header {
     
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/b.jpg");
     background-repeat:repeat;
    
 }
@@ -202,7 +204,7 @@ img {
 .cuadro img {
     max-width: 100px; 
     border-radius: 100%;
-    margin-bottom: 50px; /* Aumenta el espacio debajo de la imagen */
+    margin-bottom: 15px; /* Aumenta el espacio debajo de la imagen */
 }
 
 .card-content p {
@@ -263,10 +265,8 @@ h1 {
 #question-container {
   margin: 150px;
   margin-bottom: 20px;
-  /* Centrar el formulario en la página */
   margin: 0 auto;
   width: 800px;
-  /* Esquema del formulario */
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;   
@@ -321,75 +321,78 @@ button:hover {
 
 
 
-.barra-navegacion ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.barra-navegacion ul li {
-    display: block; 
-    margin-top: 10px; 
-}
-
-.barra-navegacion ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-}
-
-
-
-
-
-/* IMG RESULTADO*/
-
 #result-container {
-    margin-top: 50px; /* Espacio en la parte superior */
-    padding: 20px; /* Espaciado interno para el contenido */
-    background-color: #fffffff5; /* Color de fondo */
-    border-radius: 4px; /* Borde redondeado */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #faf7ee; 
+    border: 2px solid #534119ad;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 50px auto; 
+    max-width: 800px; 
 }
-
-
 
 .personalidad {
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
+    background-color: #856d6d; 
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* CONS PERSONALIDAD CSS*/
-
 /* Estilos para el título */
 .nombre {
-    font-size: 28px; /* Tamaño de fuente más grande para el título */
-    font-weight: bold; /* Texto más grueso */
-    text-align: center; /* Centra el título */
-    margin-bottom: 10px; /* Reducir el espacio entre el título y la descripción */
+    font-size: 28px; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
     color: #447B9B;
+    text-transform: uppercase; 
 }
 
 /* Estilos para la descripción */
 .descripcion {
-    font-size: 18px; /* Tamaño de fuente */
-    line-height: 1.5; /* Altura de línea */
-    text-align: left; /* Alineación del texto */
-    color: #333; /* Color de texto gris oscuro */
-    margin-bottom: 10px; /* Espacio inferior */
-    border-left: 8px solid #333; /* Línea izquierda */
-    padding-left: 10px; /* Espaciado a la izquierda */
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-align: left;
+    color: #646363; 
+    margin-bottom: 20px; 
+    padding-left: 15px; 
+    font-weight: 300; 
+    font-family: 'Poppins', sans-serif; 
 }
 
+
+
+/* Estilos para el formulario */
+.formulario {
+    padding: 20px;
+    background-color: #838b82; 
+    border: 1px solid #ddd; 
+}
 
 /* Estilos para la imagen */
 .imagen {
-    display: block; /* Para centrar la imagen */
-    margin: 0 auto; /* Para centrar la imagen horizontalmente */
-    max-width: 250px; /* Ajustar el tamaño máximo de la imagen */
-    border-radius: 10px; /* Borde redondeado para la imagen */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para la imagen */
+    display: block;
+    margin: 20px auto; 
+    max-width: 50%; /* Ajusta el tamaño máximo al 50% del contenedor */
+    width: 300px; /* Ajusta el ancho a 300px */
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    animation: moverImagen 5s infinite alternate; /* Animación de 5 segundos, alternando entre los movimientos */
 }
+
+/* Definición de la animación */
+@keyframes moverImagen {
+    0% {
+        transform: translateX(5px); /* Movimiento inicial desde la posición actual */
+    }
+    100% {
+        transform: translateX(20px); /* Movimiento final a 200px hacia la derecha */
+    }
+}
+
+
+
+
+
+

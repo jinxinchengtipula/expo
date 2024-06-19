@@ -1,8 +1,6 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
 
 
 * {
@@ -15,13 +13,17 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-image: url("../img/fondo.jpg") ;/* Color de fondo */
+    background-image: url("../img/g.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
 }
-
 .container {
     max-width: 1200px;
 }
@@ -38,19 +40,22 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    width: 100%; /* Establecer el ancho al 100% */
+    width: 100%; /* Ancho completo del viewport */
+    height: 80px; 
     display: flex;
     justify-content: space-between;
-    background-color: hsl(203, 48%, 88%); /* Color de fondo del menú */
+    align-items: center; 
+    background-color: hsla(0, 3%, 7%, 0.973); 
+    padding: 0 20px; 
+    box-shadow: 0 2px 5px #969292c5; 
 }
 
-
 .menu a{
-    color: #000;
+    color: #e7dcdc;
 }
 
 .logo {
-    color: #6c6464;
+    color: #dfd9d9;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
@@ -120,12 +125,7 @@ body {
     transition: .3s;
 }
 
-.logo {
-    color: #fff;
-    font-size: 25px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
+
 
 .menu .navbar ul li {
     position: relative;
@@ -134,7 +134,7 @@ body {
 
 .menu .navbar ul li a {
     font-size: 20px;
-    color: #000;
+    color: #a3a1a1;
     display: block;
     padding: 20px;
     font-weight: 600;
@@ -161,25 +161,30 @@ body {
     text-align: center;
     padding: 50px 0; /* Ajustar el padding según sea necesario */
 }
-
 .header-content h1 {
     font-size: 75px;
     line-height: 80px;
-    color: #f9fafc;
+    color: #1d1e1f;
     text-transform: uppercase;
     margin-bottom: 35px;
+    text-shadow: 
+        0 0 5px #dbd9d9,   /* Sombra blanca con desenfoque */
+        0 0 10px #fff,  /* Sombra blanca más grande con desenfoque */
+        0 0 15px #fff,  /* Sombra blanca aún más grande con desenfoque */
+        0 0 20px #8c8f96; /* Sombra azul para el borde iluminado */
 }
+
 
 .header-content p {
     font-size: 16px;
-    color: #c5c5c5;
+    color: #f1efef;
     padding: 0 0px; /* Ajustar el padding según sea necesario */
     margin-bottom: 25px;
 }
 
 .btn-1 {
     padding: 15px 20px;
-    background-color: #f88a40;
+    background-color: #e7a10b;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
@@ -187,7 +192,7 @@ body {
 }
 
 .btn-1:hover {
-    background-color: #fda062;
+    background-color: #3f5c3c;
     transition: .3s;
 }
 

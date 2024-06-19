@@ -1,14 +1,12 @@
 const questions = [
     {
         id: 1,
-        question: '¿Te consideras una persona introvertida, extrovertida o ambivertida?',
+        question: '¿Cómo te consideras?',
         answers: [
             { option: 'Introvertida', value: 1 },
             { option: 'Ambivertida', value: 2 },
             { option: 'Extrovertida', value: 3 },
-            
         ]
-
     },
     {
         id: 2,
@@ -21,7 +19,7 @@ const questions = [
     },
     {
         id: 3,
-        question: '¿Qué te motiva más: el éxito personal, el crecimiento personal o el bienestar de los demás?',
+        question: '¿Qué te motiva más en la vida?',
         answers: [
             { option: 'Éxito personal', value: 1 },
             { option: 'Crecimiento personal', value: 2 },
@@ -30,7 +28,7 @@ const questions = [
     },
     {
         id: 4,
-        question: '¿Cómo te sientes acerca del cambio: te cuesta adaptarte, lo aceptas si es necesario o te emociona?',
+        question: '¿Cómo afrontas los cambios?',
         answers: [
             { option: 'Me cuesta adaptarme', value: 1 },
             { option: 'Lo acepto si es necesario', value: 2 },
@@ -48,7 +46,7 @@ const questions = [
     },
     {
         id: 6,
-        question: '¿Cómo sueles reaccionar ante el estrés: te estresas fácilmente, puedes manejarlo con calma o te motiva a dar lo mejor de ti?',
+        question: '¿Cómo sueles manejar el estrés?',
         answers: [
             { option: 'Me estreso fácilmente', value: 1 },
             { option: 'Puedo manejarlo con calma', value: 2 },
@@ -57,7 +55,7 @@ const questions = [
     },
     {
         id: 7,
-        question: '¿Qué cualidad valoras más en los demás: honestidad, empatía o determinación?',
+        question: '¿Qué cualidad valoras más en los demás?',
         answers: [
             { option: 'Honestidad', value: 1 },
             { option: 'Empatía', value: 2 },
@@ -66,7 +64,7 @@ const questions = [
     },
     {
         id: 8,
-        question: '¿Cómo manejas los conflictos con otras personas: tratas de evitarlos, buscas una solución pacífica o afrontas el problema directamente?',
+        question: '¿Cómo manejas los conflictos con otras personas?',
         answers: [
             { option: 'Trato de evitarlos', value: 1 },
             { option: 'Busco una solución pacífica', value: 2 },
@@ -75,7 +73,7 @@ const questions = [
     },
     {
         id: 9,
-        question: '¿Cómo prefieres aprender nuevas cosas: leyendo, experimentando o escuchando a otros?',
+        question: '¿Cómo prefieres aprender nuevas cosas?',
         answers: [
             { option: 'Leyendo', value: 1 },
             { option: 'Experimentando', value: 2 },
@@ -84,7 +82,7 @@ const questions = [
     },
     {
         id: 10,
-        question: '¿Qué tipo de música te gusta más: clásica, pop/rock o electrónica?',
+        question: '¿Qué tipo de música te gusta más?',
         answers: [
             { option: 'Clásica', value: 1 },
             { option: 'Pop/Rock', value: 2 },
@@ -93,7 +91,7 @@ const questions = [
     },
     {
         id: 11,
-        question: '¿Cómo te sientes acerca de la autoridad: te incomoda, te impresiona o te enfada?',
+        question: '¿Cómo te sientes acerca de la autoridad?',
         answers: [
             { option: 'Me incomoda', value: 1 },
             { option: 'Me impresiona', value: 2 },
@@ -102,7 +100,7 @@ const questions = [
     },
     {
         id: 12,
-        question: '¿Qué te hace sentir realizado: lograr tus metas personales, ayudar a los demás o aprender algo nuevo?',
+        question: '¿Qué te hace sentir realizado?',
         answers: [
             { option: 'Lograr mis metas personales', value: 1 },
             { option: 'Ayudar a los demás', value: 2 },
@@ -111,7 +109,7 @@ const questions = [
     },
     {
         id: 13,
-        question: '¿Cómo manejas las críticas: te afectan mucho, las tomas en cuenta para mejorar o las usas como motivación?',
+        question: '¿Cómo manejas las críticas?',
         answers: [
             { option: 'Me afectan mucho', value: 1 },
             { option: 'Las tomo en cuenta para mejorar', value: 2 },
@@ -120,7 +118,7 @@ const questions = [
     },
     {
         id: 14,
-        question: '¿Cómo te sientes acerca de la rutina diaria: te sientes cómodo con ella, puede ser aburrida a veces o la encuentras necesaria para tu vida?',
+        question: '¿Cómo te sientes acerca de la rutina diaria?',
         answers: [
             { option: 'Me siento cómodo con ella', value: 1 },
             { option: 'Puede ser aburrida a veces', value: 2 },
@@ -129,7 +127,7 @@ const questions = [
     },
     {
         id: 15,
-        question: '¿Cómo prefieres abordar nuevos desafíos: con cautela, con curiosidad o con determinación?',
+        question: '¿Cómo prefieres abordar nuevos desafíos?',
         answers: [
             { option: 'Con cautela', value: 1 },
             { option: 'Con curiosidad', value: 2 },
@@ -138,7 +136,7 @@ const questions = [
     },
     {
         id: 16,
-        question: '¿Qué tipo de películas prefieres: drama, comedia o acción?',
+        question: '¿Qué tipo de películas prefieres?',
         answers: [
             { option: 'Drama', value: 1 },
             { option: 'Comedia', value: 2 },
@@ -147,7 +145,7 @@ const questions = [
     },
     {
         id: 17,
-        question: '¿Cómo prefieres pasar tus vacaciones: relajándote en la playa, explorando nuevas ciudades o realizando actividades de aventura?',
+        question: '¿Cómo prefieres pasar tus vacaciones?',
         answers: [
             { option: 'Relajándome en la playa', value: 1 },
             { option: 'Explorando nuevas ciudades', value: 2 },
@@ -156,7 +154,7 @@ const questions = [
     },
     {
         id: 18,
-        question: '¿Cómo sueles abordar situaciones sociales: prefieres estar solo, con unas pocas personas cercanas o rodeado de mucha gente?',
+        question: '¿Cómo sueles abordar situaciones sociales?',
         answers: [
             { option: 'Solo', value: 1 },
             { option: 'Con unas pocas personas cercanas', value: 2 },
@@ -165,7 +163,7 @@ const questions = [
     },
     {
         id: 19,
-        question: '¿Qué te gusta hacer en tu tiempo libre: leer un libro, salir con amigos o practicar deporte?',
+        question: '¿Qué te gusta hacer en tu tiempo libre?',
         answers: [
             { option: 'Leer un libro', value: 1 },
             { option: 'Salir con amigos', value: 2 },
@@ -174,7 +172,7 @@ const questions = [
     },
     {
         id: 20,
-        question: '¿Cómo te sientes generalmente en situaciones nuevas o desconocidas: indiferente, nervioso/a o emocionado/a?',
+        question: '¿Cómo te sientes generalmente en situaciones nuevas o desconocidas?',
         answers: [
             { option: 'Indiferente', value: 1 },
             { option: 'Nervioso/a', value: 2 },
@@ -183,7 +181,7 @@ const questions = [
     },
     {
         id: 21,
-        question: '¿Cómo sueles resolver problemas: analizando cuidadosamente las opciones, siguiendo tu intuición o actuando con rapidez?',
+        question: '¿Cómo sueles resolver problemas?',
         answers: [
             { option: 'Analizando cuidadosamente las opciones', value: 1 },
             { option: 'Siguiendo mi intuición', value: 2 },
@@ -192,16 +190,16 @@ const questions = [
     },
     {
         id: 22,
-        question: '¿Qué te hace sentir más satisfecho/a: alcanzar tus objetivos, ayudar a otros o aprender algo nuevo?',
+        question: '¿Qué consideras más importante en tu vida diaria?',
         answers: [
-            { option: 'Alcanzar mis objetivos', value: 1 },
-            { option: 'Ayudar a otros', value: 2 },
-            { option: 'Aprender algo nuevo', value: 3 }
+            { option: 'Mantener un equilibrio personal', value: 1 },
+            { option: 'Apoyar a quienes me rodean', value: 2 },
+            { option: 'Explorar nuevas ideas y conocimientos', value: 3 }
         ]
     },
     {
         id: 23,
-        question: '¿Cómo reaccionas ante el fracaso: te desanimas fácilmente, buscas nuevas estrategias o te sirve de motivación?',
+        question: '¿Cómo reaccionas ante el fracaso?',
         answers: [
             { option: 'Me desanimo fácilmente', value: 1 },
             { option: 'Busco nuevas estrategias', value: 2 },
@@ -210,7 +208,7 @@ const questions = [
     },
     {
         id: 24,
-        question: '¿Qué tipo de actividades te relajan más: actividades al aire libre, hobbies creativos o actividades sociales?',
+        question: '¿Qué tipo de actividades son más relajantes para ti?',
         answers: [
             { option: 'Actividades al aire libre', value: 1 },
             { option: 'Hobbies creativos', value: 2 },
@@ -219,7 +217,7 @@ const questions = [
     },
     {
         id: 25,
-        question: '¿Cómo te sientes acerca de la incertidumbre: te incomoda, la aceptas como parte de la vida o la encuentras emocionante?',
+        question: '¿Cómo te sientes acerca de la incertidumbre?',
         answers: [
             { option: 'Me incomoda', value: 1 },
             { option: 'La acepto como parte de la vida', value: 2 },
@@ -228,7 +226,7 @@ const questions = [
     },
     {
         id: 26,
-        question: '¿Qué valoras más en una amistad: lealtad, sinceridad o diversión?',
+        question: '¿Qué valoras más en una amistad?',
         answers: [
             { option: 'Lealtad', value: 1 },
             { option: 'Sinceridad', value: 2 },
@@ -237,7 +235,7 @@ const questions = [
     },
     {
         id: 27,
-        question: '¿Qué te inspira más: las historias de éxito, los actos de bondad o la superación personal?',
+        question: '¿Qué te inspira más?',
         answers: [
             { option: 'Historias de éxito', value: 1 },
             { option: 'Actos de bondad', value: 2 },
@@ -246,16 +244,16 @@ const questions = [
     },
     {
         id: 28,
-        question: '¿Qué te gusta más: planificar actividades o improvisar sobre la marcha?',
+        question: '¿Qué tipo de ambiente prefieres?',
         answers: [
-            { option: 'Planificar actividades', value: 1 },
-            { option: 'Improvisar sobre la marcha', value: 2 },
-            { option: 'Depende de la situación', value: 3 }
+            { option: "Ambientes tranquilos y relajados", "value": 1 },
+            { option: "Ambientes animados y llenos de actividad", "value": 2 },
+            { option: "Depende del momento y la compañía", "value": 3 }
         ]
     },
     {
         id: 29,
-        question: '¿Cuál es tu enfoque principal en la vida: el éxito profesional, las relaciones personales o el autodescubrimiento?',
+        question: '¿Cuál es tu enfoque principal en la vida?',
         answers: [
             { option: 'Éxito profesional', value: 1 },
             { option: 'Relaciones personales', value: 2 },
@@ -264,7 +262,7 @@ const questions = [
     },
     {
         id: 30,
-        question: '¿Cómo te sientes acerca de expresar tus emociones: cómodo/a, reservado/a o variable dependiendo de la situación?',
+        question: '¿Cómo te sientes acerca de expresar tus emociones?',
         answers: [
             { option: 'Cómodo/a', value: 1 },
             { option: 'Reservado/a', value: 2 },
@@ -272,7 +270,6 @@ const questions = [
         ]
     }
 ];
-
 
 
 
